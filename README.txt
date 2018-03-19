@@ -1,0 +1,1 @@
+A simple WordPress plugin add a prominent warning to live sites to discourage users from making content changes that may be overridden by dev-server updates. The plugin is WC branded, but all other aspects can be edited.
