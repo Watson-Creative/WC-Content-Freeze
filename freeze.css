@@ -1,0 +1,11 @@
+.freeze-options textarea {
+    height: 10em;
+}
+
+.freeze-options input[type="text"], textarea {
+    width: 100%;
+}
+
+.notice-watson {
+    border-left-color: #1abcb9;
+}
