@@ -18,7 +18,6 @@ This plugin allows admins to create warning for users to be notified of content 
 
 */
 
-require 'auto-updater-hidden.php';
 
 
 add_action('admin_head', 'freeze_styles');
