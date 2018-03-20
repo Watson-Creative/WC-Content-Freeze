@@ -19,16 +19,7 @@ This plugin allows admins to create warning for users to be notified of content 
 */
 
 
-//auto-updater plugin
-require 'path/to/plugin-update-checker/plugin-update-checker.php';
-$myUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
-	'http://example.com/path/to/details.json',
-	__FILE__, //Full path to the main plugin file or functions.php.
-	'unique-plugin-or-theme-slug'
-);
-//Optional: If you're using a private repository, specify the access token like this:
-$myUpdateChecker->setAuthentication('1f4af94b2f81aa796aaf9cdd89941fab11a01f78');
-//end auto-updater
+
 
 add_action('admin_head', 'freeze_styles');
 function freeze_styles() {
