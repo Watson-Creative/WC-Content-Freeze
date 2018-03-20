@@ -4,7 +4,7 @@
  Plugin URI: https://github.com/Watson-Creative/Content-Freeze
  GitHub Plugin URI: https://github.com/Watson-Creative/Content-Freeze
  description: Add a prominent warning to live sites to prevent users from making content changes that may be overridden by dev-server updates.
- Version: 1.3
+ Version: 1.3.1
  Author: Alex Tryon
  Author URI: http://www.alextryonpdx.com
  License: GPL2
