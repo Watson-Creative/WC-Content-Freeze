@@ -1,0 +1,15 @@
+{
+	"name": "WC Content Freeze",
+	"type": "library",
+	"description": "Add a prominent warning to live sites to prevent users from making content changes that may be overridden by dev-server updates.",
+	"homepage": "https://github.com/Watson-Creative/Content-Freeze",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Alex Tryon",
+			"email": "alex@watsoncreative.com",
+			"homepage": "https://watsoncreative.com",
+			"role": "Developer"
+		}
+	],
+}
