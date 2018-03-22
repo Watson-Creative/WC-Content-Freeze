@@ -4,7 +4,7 @@
  Plugin URI: https://github.com/Watson-Creative/WC-Content-Freeze
  GitHub Plugin URI: https://github.com/Watson-Creative/WC-Content-Freeze
  description: Add a prominent warning to live sites to prevent users from making content changes that may be overridden by dev-server updates.
- Version: 1.3.5
+ Version: 1.3.6
  Author: Alex Tryon
  Author URI: http://www.alextryonpdx.com
  License: GPL2
@@ -208,6 +208,7 @@ function freeze_settings_page() {
 ?>
 
 <div class="wrap">
+	<img id="watson-branding" src="<?php echo plugins_url('img/WC_Brand_Signature.png', __FILE__ ); ?>" style="max-width:400px;">
 	<h1>Watson Creative Content Freeze</h1>
 	<form method="post" action="options.php"> 
 		<?php 
