@@ -4,7 +4,7 @@
  Plugin URI: https://github.com/Watson-Creative/WC-Content-Freeze
  GitHub Plugin URI: https://github.com/Watson-Creative/WC-Content-Freeze
  description: Add a prominent warning to live sites to prevent users from making content changes that may be overridden by dev-server updates.
- Version: 1.3.7
+ Version: 1.3.7.1
  Author: Alex Tryon
  Author URI: http://www.alextryonpdx.com
  License: GPL2
@@ -92,19 +92,19 @@ function create_default_values() {
 				add_option("freeze_deactivation_text", $freeze_deactivation_text_default); 
 			}
 
-	if(get_option('freeze_delay_default' == false){
+	if( get_option('freeze_delay_default') == false ) {
 		add_option('freeze_delay_default', $freeze_delay_default);
 	}
-	if(get_option('freeze_heading_default' == false){
+	if(get_option('freeze_heading_default') == false ) {
 		add_option('freeze_heading_default', $freeze_heading_default);
 	}
-	if(get_option('freeze_text_default' == false){
+	if(get_option('freeze_text_default') == false ) {
 		add_option('freeze_text_default', $freeze_text_default);
 	}
-	if(get_option('freeze_deactivation_heading_default' == false){
+	if(get_option('freeze_deactivation_heading_default') == false ) {
 		add_option('freeze_deactivation_heading_default', $freeze_deactivation_heading_default);
 	}
-	if(get_option('freeze_deactivation_text_default' == false){
+	if(get_option('freeze_deactivation_text_default') == false ) {
 		add_option('freeze_deactivation_text_default', $freeze_deactivation_text_default);
 	}
 }
