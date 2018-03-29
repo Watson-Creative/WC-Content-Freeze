@@ -4,7 +4,7 @@
  Plugin URI: https://github.com/Watson-Creative/WC-Content-Freeze
  GitHub Plugin URI: https://github.com/Watson-Creative/WC-Content-Freeze
  description: Add a prominent warning to live sites to prevent users from making content changes that may be overridden by dev-server updates.
- Version: 1.3.7.1
+ Version: 1.3.7.2
  Author: Alex Tryon
  Author URI: http://www.alextryonpdx.com
  License: GPL2
@@ -64,9 +64,9 @@ function freeze_styles() {
 
 
 // Add default vaules on initial load
-register_activation_hook(__FILE__,'create_default_values');
+register_activation_hook(__FILE__,'create_default_freeze_values');
 
-function create_default_values() {
+function create_default_freeze_values() {
 
 	$freeze_delay_default = 60;
 	$freeze_heading_default = 'A Temporary Content Freeze is in Effect';
