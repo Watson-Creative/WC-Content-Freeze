@@ -92,11 +92,21 @@ function create_default_values() {
 				add_option("freeze_deactivation_text", $freeze_deactivation_text_default); 
 			}
 
-	add_option('freeze_delay_default', $freeze_delay_default);
-	add_option('freeze_heading_default', $freeze_heading_default);
-	add_option('freeze_text_default', $freeze_text_default);
-	add_option('freeze_deactivation_heading_default', $freeze_deactivation_heading_default);
-	add_option('freeze_deactivation_text_default', $freeze_deactivation_text_default);
+	if(get_option('freeze_delay_default' == false){
+		add_option('freeze_delay_default', $freeze_delay_default);
+	}
+	if(get_option('freeze_heading_default' == false){
+		add_option('freeze_heading_default', $freeze_heading_default);
+	}
+	if(get_option('freeze_text_default' == false){
+		add_option('freeze_text_default', $freeze_text_default);
+	}
+	if(get_option('freeze_deactivation_heading_default' == false){
+		add_option('freeze_deactivation_heading_default', $freeze_deactivation_heading_default);
+	}
+	if(get_option('freeze_deactivation_text_default' == false){
+		add_option('freeze_deactivation_text_default', $freeze_deactivation_text_default);
+	}
 }
 
 
