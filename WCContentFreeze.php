@@ -134,7 +134,7 @@ if (!$_POST) {
 		add_action('admin_notices', 'freeze_deactivation_admin_notice');
 
 	} else {
-		add_action('admin_init', 'freeze_active_admin_notice');
+		add_action('admin_notices', 'freeze_active_admin_notice');
 	}
 }
 //////////////////////////////////////////   LOGIC   //////////////////////////////////////////
